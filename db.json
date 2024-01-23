@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "name": "greg",
+      "email": "gregemax700@gmail.com",
+      "password": "1111",
+      "confirmPassword": "1111",
+      "id": 1
+    },
+    {
+      "name": "emax",
+      "email": "milesmoralesmyguy@gmail.com",
+      "password": "maxx",
+      "confirmPassword": "maxx",
+      "id": 2
+    },
+    {
+      "name": "greg",
+      "email": "milesmoralesmyguy@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 3
+    },
+    {
+      "name": "mifi@gmail.com",
+      "email": "mifi@gmail.com",
+      "password": "mifi@gmail.com",
+      "confirmPassword": "mifi@gmail.com",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

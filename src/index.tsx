@@ -3,14 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@mantine/core/styles.css';
+import { createTheme, MantineProvider } from '@mantine/core';
+
+import { GoogleOAuthProvider } from '@react-oauth/google';
+const theme = createTheme({
+
+})
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+<GoogleOAuthProvider clientId='868847931997-slftid0scp4co1j6bgknaaj6kbunir8m.apps.googleusercontent.com'>
+
+  <MantineProvider theme={theme}>
+
+
   <React.StrictMode>
     <App />
   </React.StrictMode>
+  </MantineProvider>
+</GoogleOAuthProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
