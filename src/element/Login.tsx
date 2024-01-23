@@ -44,7 +44,7 @@ const Login: React.FC = () => {
       setTimeout(() => {
         console.log("Logging in with:", values);
         // After successful login, you may redirect the user or perform other actions
-        setSubmitting(false);
+        setSubmitting(false); 
       }, 1000);
     };
     return (
